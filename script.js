@@ -11,14 +11,6 @@ function editName(){
     console.log(profileName);
 }
 
-var count = 2;
-var countElement1 = document.querySelector('#count');
-function removeName1(){
-    count--;
-    countElement1.innerText = count
-    console.log(count);
-}
-
 var connectionRequest1 = document.querySelector("#request1");
 function removeName1(){
     connectionRequest1.remove();
